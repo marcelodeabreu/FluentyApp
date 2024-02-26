@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		641ED3062B8C05ED009F4B00 /* QuizCompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641ED3052B8C05ED009F4B00 /* QuizCompletedView.swift */; };
+		64AEC74E2B8A8EDF00075361 /* FluentyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AEC74D2B8A8EDF00075361 /* FluentyAppApp.swift */; };
+		64AEC7502B8A8EDF00075361 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AEC74F2B8A8EDF00075361 /* ContentView.swift */; };
+		64AEC7522B8A8EE200075361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64AEC7512B8A8EE200075361 /* Assets.xcassets */; };
+		64AEC7552B8A8EE200075361 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64AEC7542B8A8EE200075361 /* Preview Assets.xcassets */; };
+		64AEC75D2B8A936500075361 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AEC75C2B8A936500075361 /* HomeView.swift */; };
+		64AEC75F2B8A93FD00075361 /* GameDifficultyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AEC75E2B8A93FD00075361 /* GameDifficultyView.swift */; };
+		64AEC7622B8A967600075361 /* ReusableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AEC7612B8A967600075361 /* ReusableText.swift */; };
+		64AEC7642B8A99C000075361 /* EasyModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AEC7632B8A99C000075361 /* EasyModeView.swift */; };
+		64AEC76A2B8A9B1600075361 /* MediumModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AEC7692B8A9B1600075361 /* MediumModeView.swift */; };
+		64AEC76C2B8A9B2300075361 /* HardModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AEC76B2B8A9B2300075361 /* HardModeView.swift */; };
+		64AEC76F2B8A9CA600075361 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AEC76E2B8A9CA600075361 /* QuizModel.swift */; };
+		64AEC7712B8A9E9B00075361 /* OptionsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AEC7702B8A9E9B00075361 /* OptionsGridView.swift */; };
+		64AEC7742B8AA06600075361 /* GameManagerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AEC7732B8AA06600075361 /* GameManagerVM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		641ED3052B8C05ED009F4B00 /* QuizCompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCompletedView.swift; sourceTree = "<group>"; };
+		64AEC74A2B8A8EDF00075361 /* FluentyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluentyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64AEC74D2B8A8EDF00075361 /* FluentyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluentyAppApp.swift; sourceTree = "<group>"; };
+		64AEC74F2B8A8EDF00075361 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64AEC7512B8A8EE200075361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64AEC7542B8A8EE200075361 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64AEC75C2B8A936500075361 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		64AEC75E2B8A93FD00075361 /* GameDifficultyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDifficultyView.swift; sourceTree = "<group>"; };
+		64AEC7612B8A967600075361 /* ReusableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableText.swift; sourceTree = "<group>"; };
+		64AEC7632B8A99C000075361 /* EasyModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyModeView.swift; sourceTree = "<group>"; };
+		64AEC7692B8A9B1600075361 /* MediumModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumModeView.swift; sourceTree = "<group>"; };
+		64AEC76B2B8A9B2300075361 /* HardModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardModeView.swift; sourceTree = "<group>"; };
+		64AEC76E2B8A9CA600075361 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		64AEC7702B8A9E9B00075361 /* OptionsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsGridView.swift; sourceTree = "<group>"; };
+		64AEC7732B8AA06600075361 /* GameManagerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManagerVM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64AEC7472B8A8EDF00075361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64AEC7412B8A8EDF00075361 = {
+			isa = PBXGroup;
+			children = (
+				64AEC74C2B8A8EDF00075361 /* FluentyApp */,
+				64AEC74B2B8A8EDF00075361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64AEC74B2B8A8EDF00075361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64AEC74A2B8A8EDF00075361 /* FluentyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64AEC74C2B8A8EDF00075361 /* FluentyApp */ = {
+			isa = PBXGroup;
+			children = (
+				64AEC7722B8A9FF500075361 /* ViewModels */,
+				64AEC76D2B8A9C6700075361 /* Models */,
+				64AEC7602B8A950B00075361 /* UIComponents */,
+				64AEC75B2B8A935200075361 /* Views */,
+				64AEC74D2B8A8EDF00075361 /* FluentyAppApp.swift */,
+				64AEC74F2B8A8EDF00075361 /* ContentView.swift */,
+				64AEC7512B8A8EE200075361 /* Assets.xcassets */,
+				64AEC7532B8A8EE200075361 /* Preview Content */,
+			);
+			path = FluentyApp;
+			sourceTree = "<group>";
+		};
+		64AEC7532B8A8EE200075361 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64AEC7542B8A8EE200075361 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64AEC75B2B8A935200075361 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64AEC75C2B8A936500075361 /* HomeView.swift */,
+				64AEC75E2B8A93FD00075361 /* GameDifficultyView.swift */,
+				64AEC7632B8A99C000075361 /* EasyModeView.swift */,
+				64AEC7692B8A9B1600075361 /* MediumModeView.swift */,
+				64AEC76B2B8A9B2300075361 /* HardModeView.swift */,
+				641ED3052B8C05ED009F4B00 /* QuizCompletedView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64AEC7602B8A950B00075361 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				64AEC7612B8A967600075361 /* ReusableText.swift */,
+				64AEC7702B8A9E9B00075361 /* OptionsGridView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		64AEC76D2B8A9C6700075361 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64AEC76E2B8A9CA600075361 /* QuizModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64AEC7722B8A9FF500075361 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				64AEC7732B8AA06600075361 /* GameManagerVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64AEC7492B8A8EDF00075361 /* FluentyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64AEC7582B8A8EE200075361 /* Build configuration list for PBXNativeTarget "FluentyApp" */;
+			buildPhases = (
+				64AEC7462B8A8EDF00075361 /* Sources */,
+				64AEC7472B8A8EDF00075361 /* Frameworks */,
+				64AEC7482B8A8EDF00075361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluentyApp;
+			productName = FluentyApp;
+			productReference = 64AEC74A2B8A8EDF00075361 /* FluentyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64AEC7422B8A8EDF00075361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					64AEC7492B8A8EDF00075361 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 64AEC7452B8A8EDF00075361 /* Build configuration list for PBXProject "FluentyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64AEC7412B8A8EDF00075361;
+			productRefGroup = 64AEC74B2B8A8EDF00075361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64AEC7492B8A8EDF00075361 /* FluentyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64AEC7482B8A8EDF00075361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64AEC7552B8A8EE200075361 /* Preview Assets.xcassets in Resources */,
+				64AEC7522B8A8EE200075361 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64AEC7462B8A8EDF00075361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64AEC7622B8A967600075361 /* ReusableText.swift in Sources */,
+				64AEC75D2B8A936500075361 /* HomeView.swift in Sources */,
+				64AEC7502B8A8EDF00075361 /* ContentView.swift in Sources */,
+				64AEC7712B8A9E9B00075361 /* OptionsGridView.swift in Sources */,
+				64AEC7642B8A99C000075361 /* EasyModeView.swift in Sources */,
+				64AEC76C2B8A9B2300075361 /* HardModeView.swift in Sources */,
+				64AEC74E2B8A8EDF00075361 /* FluentyAppApp.swift in Sources */,
+				64AEC7742B8AA06600075361 /* GameManagerVM.swift in Sources */,
+				64AEC75F2B8A93FD00075361 /* GameDifficultyView.swift in Sources */,
+				64AEC76F2B8A9CA600075361 /* QuizModel.swift in Sources */,
+				64AEC76A2B8A9B1600075361 /* MediumModeView.swift in Sources */,
+				641ED3062B8C05ED009F4B00 /* QuizCompletedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64AEC7562B8A8EE200075361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64AEC7572B8A8EE200075361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64AEC7592B8A8EE200075361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FluentyApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelodeabreu.FluentyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64AEC75A2B8A8EE200075361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FluentyApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelodeabreu.FluentyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64AEC7452B8A8EDF00075361 /* Build configuration list for PBXProject "FluentyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64AEC7562B8A8EE200075361 /* Debug */,
+				64AEC7572B8A8EE200075361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64AEC7582B8A8EE200075361 /* Build configuration list for PBXNativeTarget "FluentyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64AEC7592B8A8EE200075361 /* Debug */,
+				64AEC75A2B8A8EE200075361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64AEC7422B8A8EDF00075361 /* Project object */;
+}
