@@ -17,39 +17,56 @@ class GameManagerVM : ObservableObject {
     }
     
     @Published var model = GameManagerVM.createGameMode(i: GameManagerVM.currentIndex)
+    @Published var progress = 0
     
+    init() {
+            self.start()
+        }
     
+    func start () {
+        self.progress = 0
+        GameManagerVM.currentIndex = 0
+        
+    }
     
     func verifyAnswer(selectedOption: QuizOption) {
-        for index in model.quizModel.optionsList.indices {
-            model.quizModel.optionsList[index].isMatched = false
-            model.quizModel.optionsList[index].isSelected = false
-        }
-        if let index = model.quizModel.optionsList.firstIndex(where: {$0.optionId == selectedOption.optionId }) {
-            if selectedOption.optionId == model.quizModel.answer {
-                model.quizModel.optionsList[index].isMatched = true
-                model.quizModel.optionsList[index].isSelected = true
-                
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                    if (GameManagerVM.currentIndex < 5) {
-                        GameManagerVM.currentIndex = GameManagerVM.currentIndex + 1
-                        self.model = GameManagerVM.createGameMode(i: GameManagerVM.currentIndex)
-                    } else {
-                        self.model.quizCompleted = true
-                        self.model.quizWinningStatus = true
-                    }
-                }
-            } else {
+            for index in model.quizModel.optionsList.indices {
                 model.quizModel.optionsList[index].isMatched = false
-                model.quizModel.optionsList[index].isSelected = true
+                model.quizModel.optionsList[index].isSelected = false
+            }
+            if let index = model.quizModel.optionsList.firstIndex(where: {$0.optionId == selectedOption.optionId }) {
+                if selectedOption.optionId == model.quizModel.answer {
+                    model.quizModel.optionsList[index].isMatched = true
+                    model.quizModel.optionsList[index].isSelected = true
+                    
+//                    GameManagerVM.currentIndex = GameManagerVM.currentIndex + 1
+                    
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                        if (GameManagerVM.currentIndex < 4) {
+                            GameManagerVM.currentIndex = GameManagerVM.currentIndex + 1
+                            self.model = GameManagerVM.createGameMode(i: GameManagerVM.currentIndex)
+                            self.progress += 1
+                        } else {
+                            self.model.quizCompleted = true
+                            self.model.quizWinningStatus = true
+                            self.progress += 1
+                        }
+                    }
+                } else {
+//                    GameManagerVM.currentIndex = GameManagerVM.currentIndex + 1
+                    
+                    model.quizModel.optionsList[index].isMatched = false
+                    model.quizModel.optionsList[index].isSelected = true
+                    self.progress += 1
+                }
             }
         }
-    }
     
     func restartGame() {
         
         GameManagerVM.currentIndex = 0
         model = GameManagerVM.createGameMode(i: GameManagerVM.currentIndex)
+        self.start()
     }
 }
 
