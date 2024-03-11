@@ -1,9 +1,6 @@
-//
 //  OptionsGridView.swift
 //  FluentyApp
-//
 //  Created by Marcelo de Abreu on 24/02/24.
-//
 
 import Foundation
 import SwiftUI
@@ -12,13 +9,15 @@ struct OptionsGridView: View {
     
     var gameManagerVM: GameManagerVM
     var columns: [GridItem] = Array(repeating: GridItem(.fixed(170), spacing: 0), count: 2)
+    
     var body: some View {
-        
         LazyVGrid(columns: columns, spacing: 20) {
             ForEach(gameManagerVM.model.quizModel.optionsList) { quizOption in
                 OptionCardView(quizOption: quizOption)
                     .onTapGesture {
-                        gameManagerVM.verifyAnswer(selectedOption: quizOption)
+                        if !gameManagerVM.model.quizCompleted {
+                            gameManagerVM.verifyAnswer(selectedOption: quizOption)
+                        }
                     }
             }
         }

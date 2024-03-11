@@ -35,7 +35,11 @@ struct EasyModeView: View {
                             .foregroundColor(.gray)
                             .multilineTextAlignment(.center)
                             .padding()
+                    
                     OptionsGridView(gameManagerVM: gameManagerVM)
+                    
+                    ReusableText(text: String(gameManagerVM.progress))
+                        .frame(width: 150, height: 150)
                     
                 }
             }

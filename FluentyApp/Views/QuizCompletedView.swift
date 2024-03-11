@@ -14,12 +14,6 @@ struct QuizCompletedView: View {
     var body: some View {
         VStack {
             
-            Image("logoIdiomQuizApp5")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 250)
-                .padding(10)
-            
             Text("GAME COMPLETED")
             
         }

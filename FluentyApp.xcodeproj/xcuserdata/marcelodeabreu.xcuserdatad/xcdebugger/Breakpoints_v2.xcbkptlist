@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "62A107A2-B83F-4867-B1D1-398729C09FFD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF9BEAD9-3576-4B19-A295-05E857183FD8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FluentyApp/UIComponents/OptionsGridView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "CF9BEAD9-3576-4B19-A295-05E857183FD8 - 70e3b069146505f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;FluentyApp.OptionStatusImageView, FluentyApp.OptionStatusImageView&gt;, FluentyApp.OptionView&gt; in FluentyApp.OptionCardView.body.getter : some"
+                  moduleName = "FluentyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcelodeabreu/dev/Projects/FluentyApp/FluentyApp/UIComponents/OptionsGridView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "135">
+               </Location>
+               <Location
+                  uuid = "CF9BEAD9-3576-4B19-A295-05E857183FD8 - ecb20e6d1836a812"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;FluentyApp.OptionStatusImageView, FluentyApp.OptionStatusImageView&gt; in FluentyApp.OptionCardView.body.getter : some"
+                  moduleName = "FluentyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcelodeabreu/dev/Projects/FluentyApp/FluentyApp/UIComponents/OptionsGridView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "109">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
