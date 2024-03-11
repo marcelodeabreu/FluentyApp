@@ -27,7 +27,7 @@ struct QuizCompletedView: View {
                             }
                         }.frame(width: 300, height: 60, alignment: .center)
                             .background(.green.opacity(0.7))
-                            .cornerRadius(30)
+                            .cornerRadius(10)
                             .padding()
                         
                     
