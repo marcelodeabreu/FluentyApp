@@ -82,6 +82,38 @@
             endingLineNumber = "37"
             landmarkName = "verifyAnswer(selectedOption:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9EA3DB6F-919B-4B98-8F62-E7EE423947D5 - aadc3947fb446fad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FluentyApp.GameManagerVM.verifyAnswer(selectedOption: FluentyApp.QuizOption) -&gt; ()"
+                  moduleName = "FluentyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcelodeabreu/dev/Projects/FluentyApp/FluentyApp/ViewModels/GameManagerVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1342">
+               </Location>
+               <Location
+                  uuid = "9EA3DB6F-919B-4B98-8F62-E7EE423947D5 - f8e11d9d00fb5eb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (FluentyApp.QuizOption) -&gt; Swift.Bool in FluentyApp.GameManagerVM.verifyAnswer(selectedOption: FluentyApp.QuizOption) -&gt; ()"
+                  moduleName = "FluentyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcelodeabreu/dev/Projects/FluentyApp/FluentyApp/ViewModels/GameManagerVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "59">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
